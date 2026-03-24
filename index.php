@@ -1,4 +1,4 @@
-<table>
+    <table>
     <?php
     $input = 5;
     if ($input >=1 && $input<=12){
@@ -8,15 +8,15 @@
             $classe = "gris";
         } else {
             $classe = "azul";
-        }
+            }
         echo "<tr class='$classe'>";
         echo "  <td>$i * $input</td>";
         echo "  <td>$resultat</td>";
         echo "</tr>";
     }
-    }
+}
     else {
         echo "El nombre introduït no es valid";
-    }
+}
     ?>
 </table>
